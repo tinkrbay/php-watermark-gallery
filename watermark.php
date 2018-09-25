@@ -88,7 +88,7 @@
 if(isset($_FILES['image_file']))
 {
         $max_size = 800; //max image size in Pixels
-        $destination_folder = '/var/www/html/images';
+        $destination_folder = '/var/www/html/php-watermark-gallery/images';
         $watermark_png_file = 'watermark.png'; //watermark png file
 
         $image_name = $_FILES['image_file']['name']; //file name
